@@ -43,7 +43,7 @@ function Home() {
     const cleanedPhone = formData.phoneNo.replace(/\D/g, "");
 
     try {
-      await axios.post("http://localhost:5000/api/contact", {
+      await axios.post("https://nicecoolcare-fullstack.onrender.com/api/contact", {
         name: formData.name,
         email: formData.email,
         phoneNo: cleanedPhone,
