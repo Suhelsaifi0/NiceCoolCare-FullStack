@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: ["https://nice-cool-care-full-stack-frontend.vercel.app/"],
+  origin: ["https://nice-cool-care-full-stack-frontend.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
