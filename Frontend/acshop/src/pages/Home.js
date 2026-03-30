@@ -13,7 +13,6 @@ import {
   faLocationDot,
   faEnvelope,
   faPhone,
-  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
